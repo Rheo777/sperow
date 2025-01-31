@@ -1,0 +1,27 @@
+.buttonContainer {
+  @apply flex items-center justify-around w-auto max-w-[185px] min-h-[70px] h-auto bg-[#3973eb] rounded-[15px] m-2 p-2;
+}
+
+.profileImage {
+  @apply w-[32px] h-[32px] rounded-full mb-2 items-center mt-1;
+}
+
+.userDetails {
+  @apply flex flex-col items-center text-white text-center;
+}
+
+.userName {
+  @apply text-[15px] font-semibold font-["Nunito"] items-center;
+}
+
+.userFollowers {
+  @apply text-[11px];
+}
+
+.logoutIconContainer {
+  @apply w-8 h-8 flex items-center justify-center;
+}
+
+.logoutIcon {
+  @apply text-white text-[25px];
+}

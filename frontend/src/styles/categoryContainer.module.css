@@ -1,0 +1,20 @@
+/* src/styles/categoryContainer.module.css */
+.buttonContainer {
+  @apply flex items-center justify-between w-full bg-[#EBECED] rounded-[10px] p-3 cursor-pointer hover:bg-gray-300;
+}
+
+.userDetails {
+  @apply flex flex-col items-start text-black;
+}
+
+.userName {
+  @apply text-[14px] font-semibold;
+}
+
+.logoutIconContainer {
+  @apply w-6 h-6 flex items-center justify-center;
+}
+
+.logoutIcon {
+  @apply text-black text-[20px];
+}
